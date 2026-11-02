@@ -3,10 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Makda Solomon | Portfolio</title>
+    <meta name="viewpoint" content="width=device-width,inital-scale=1.0">
+    <meta name ="description" content = "portfolio of Makda Solomon,Software Engineering student and Aspiring web developer in Addis Ababa">
+    <meta name ="Keywords" content="Makda Solomon,Portfolio,Software Engineering,web developer,HIML"> 
+    <meta name ="Author" content="Makda Solomon">
+
+
+
+    <title> Makda Solomon | Portfolio</title>
     <link rel="icon" type="image/png" href="images/icon.png">
 
 </head>
+<header>
 <body>
     <h1>Makda Solomon</h1>
 <img src="images/profilepic.jpg" alt="Photo of Makda Solomon smiling" width="200" height="200">
@@ -14,33 +22,40 @@
 
     <p>Software Engineering student and aspiring web developer.</p>
 
-       <p>
+       <nav>
         <a href="#about">About</a> |
         <a href="#skills">Skills</a> |
         <a href="#projects">Projects</a> |
         <a href="#education">Education</a> |
         <a href="#contact">Contact</a> |
         <a href="projects.html">All Projects</a>
-    </p>
-
+       </nav>
+</header>
     <hr>
-
-    <h2 id="about">About Me</h2>
+<main>
+    <section id="about">
+        <h2>About Me</h2>
     <p>I am a 4<sup>th</sup> year<strong> Software Engineering</strong> student. I <em>really</em> enjoy building websites, and my current goal is to <mark>become a full-stack web developer</mark>.</p>
     <p>Languages I have used: <b>Python</b>, <b>C++</b> and <i> a little</i> JavaScript.</p>
     <p>Fun fact: I drink 2 liters of H<sub>2</sub>O while coding every day.</p>
 
-    <hr>
+    </section>
+
+
+   <aside>
     <h2>What Inspires me </h2>
     <blockquote>
        “The best way to predict the future is to invent it.” — Alan Kay
     </blockquote>
     <p>My teacher always says <q>practice beats theory</q>, so I code every day.</p>
     <p>Book I am reading: <cite>Clean Code</cite> by Robert C. Martin</p>
+   </aside>
 
-    <hr>
+    
 
-    <h2 id="skills">Skills</h2>
+    <section id="skills">
+        <h2>Skills</h2>
+
 
     <ul>
         <li>Programming Languages
@@ -86,38 +101,44 @@
         <dd>Saves versions of my code and shares my projects online.</dd>
     </dl>
 
+    </section>
+
     
 
-    <hr>
-
-    <h2 id="projects">Projects</h2>
+    <section id="projects">
+       <h2>Projects</h2>
+       <article>
     <h3>Simple Calculator</h3>
     <img src="images/project-calculator.png" alt="Screenshot of the calculator showing 12 + 30 = 42" width="400" height="250">
     <p>A calculator that adds, subtracts, multiplies and divides.</p>
+       </article>
 
-    <hr>
-
+   
+    <article>
     <h3>Library Management System</h3>
     <img src="images/project-library.png" alt="Screenshot of the library program listing available books" width="400" height="250">
     <p>A console program for borrowing and returning books.</p>
+    </article>
 
-    <hr>
+    <article>
 
     <h3>Email System</h3>
     <p>Pigeon Mail is a simple email system. It allows users to create an account, log in, send emails, view received emails, view sent emails, and search emails using keywords.</p>
 
-    <hr>
+    </article>
+    <article>
 
     <h3>Pong Game</h3>
     <p>A recreation of the classic Pong arcade game, where a ball bounces between paddles on the screen.</p>
-    <hr>
+    </article>
+    <article>
     <h3>My First Program</h3>
     <p>The first thing I wrote in Python was <code>print("Hello, World!")</code>. Later I wrote this loop:</p>
     <pre><code>for i in range(3):
     print("Hello", i)
 </code></pre>
 
-        <hr>
+        
 
     <h3>My First C++ Program</h3>
     <p>The first thing I wrote in C++ was <code>#include &lt;iostream&gt;</code>. Later I wrote this loop:</p>
@@ -131,14 +152,15 @@ int main() {
     return 0;
 }
 </code></pre>
-   
+    </article>
     
 
       <p><a href="projects.html">See all my projects →</a></p>
+    </section>
 
-      <hr>
-
-    <h2 id="education">Education</h2>
+     
+    <section id="education">
+        <h2>Education</h2>
     <h3>BSc in Software Engineering</h3>
     <p>Addis Ababa Science and Technology University, 2023 - present</p>
     <table border="1" cellpadding="8" cellspacing="0">
@@ -200,9 +222,10 @@ int main() {
     </tfoot>
 </table>
 
-    <hr>
+    </section>
 
-       <h2 id="contact">Contact</h2>
+       <section id="contact">
+        <h2>Contact</h2>
     <p>Address:<br>Addis Ababa,<br>Ethiopia</p>
     <p>Email: <a href="mailto:makdas205@gmail.com" target="_blank" rel="noopener">makdas205@gmail.com</a></p>
     <p>Phone: <a href="tel:+251947033824"target="_blank" rel="noopener">+251 947 033 824</a></p>
@@ -217,8 +240,11 @@ int main() {
         <area shape="circle" coords="300,100,70" href="https://www.linkedin.com/in/makda-s-gebreegziabher-793266335"  target="_blank" rel="noopener"alt="LinkedIn">
         <area shape="rect" coords="420,40,580,160" href="mailto:makdas205@gmail.com" target="_blank" rel="noopener" alt="Email">
     </map>
-    
-
+       </section>
+</main>  
+<footer>
+     <p>copyright 2026 Makda Solomon.All right reserved.</p>
+</footer>
     
 </body>
 </html>
