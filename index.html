@@ -254,6 +254,7 @@ int main() {
            <fieldset>
             <legend>Your Message</legend>
             <lable for "reason">Reason for contacting me:</lable>
+            <select id="reason" name="reason">
             <optgroup lable="Work">
                 <option value="internship">Internship</option>
                 <option value="freelance">Freelance</option>
@@ -271,6 +272,8 @@ int main() {
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="6" cols="40"></textarea>
            </fieldset>
+           <button type="submit">Send Message</button>
+           <button type="reset">Clear</button>
     </form>
        </section>
 </main>  
