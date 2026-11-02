@@ -245,16 +245,16 @@ int main() {
         <fieldset>
             <legend>Your Details</legend>
             <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname"name="fullname">
+            <input type="text" id="fullname"name="fullname"required>
             <br><Br>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
             
            </fieldset>
            <fieldset>
             <legend>Project Details</legend>
-            <label>for="phone">phone(optional)</label>
-            <input type="text" id="phone" name="phone">
+            <label for="phone">phone(optional)</label>
+            <input type="text" id="phone" name="phone"
             pattern="[0-9]{10}" title="10-digit starting with 09 or 07">
             <br><br>
              <p>Preferred contact method:</p>
@@ -286,7 +286,7 @@ int main() {
            <fieldset>
             <legend>Your Message</legend>
             <lable for "reason">Reason for contacting me:</lable>
-            <select id="reason" name="reason">
+            <select id="reason" name="reason" required>
             <optgroup lable="Work">
                 <option value="internship">Internship</option>
                 <option value="freelance">Freelance</option>
@@ -302,7 +302,10 @@ int main() {
             </select>
             <br><br>
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="6" cols="40"></textarea>
+            <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+            <br>
+            <input type="checkbox" id="checkbox" name="checkbox" value="yes">
+            <label for="copy">Send me a copy of this message</label>
            </fieldset>
            <button type="submit">Send Message</button>
            <button type="reset">Clear</button>
