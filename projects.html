@@ -3,141 +3,165 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects by Makda Solomon, Software Engineering student: a calculator, a library system, an email system and a Pong game.">
+    <meta name="keywords" content="Makda Solomon, projects, Python, C++, Java, portfolio">
+    <meta name="author" content="Makda Solomon">
     <title>Projects | Makda Solomon</title>
     <link rel="icon" type="image/png" href="images/icon.png">
 </head>
 
 <body>
-    <p><a href="index.html">Back to Home</a></p>
+    <header>
+        <nav>
+            <a href="index.html">Back to Home</a>
+        </nav>
+        <h1>My Projects</h1>
+        <p>Details of every project I have built.</p>
+    </header>
 
-    <h1>My Projects</h1>
+    <main>
+        <section id="summary">
+            <h2>Project Summary</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <caption>Project Summary</caption>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Language</th>
+                        <th>Year</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Simple Calculator</td>
+                        <td>Python</td>
+                        <td>2025</td>
+                        <td><a href="#calculator">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Library Management System</td>
+                        <td>C++</td>
+                        <td>2025</td>
+                        <td><a href="#library">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Email System (Pigeon Mail)</td>
+                        <td>Java</td>
+                        <td>2026</td>
+                        <td><a href="#email">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Pong Game</td>
+                        <td>Java</td>
+                        <td>2026</td>
+                        <td><a href="#pong">View</a></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total projects</td>
+                        <td>4</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <caption>Project Summary</caption>
-  <thead>
-    <tr>
-      <th>Project</th>
-      <th>Language</th>
-      <th>Year</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Simple Calculator</td>
-      <td>Python</td>
-      <td>2025</td>
-      <td><a href="index.html#projects">View</a></td>
-    </tr>
-    <tr>
-      <td>Library Management System</td>
-      <td>C++</td>
-      <td>2025</td>
-      <td><a href="index.html#projects">View</a></td>
-    </tr>
-    <tr>
-      <td>Email System (Pigeon Mail)</td>
-      <td>Java</td>
-      <td>2026</td>
-      <td><a href="index.html#projects">View</a></td>
-    </tr>
-    <tr>
-      <td>Pong Game</td>
-      <td>Java</td>
-      <td>2026</td>
-      <td><a href="index.html#projects">View</a></td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="3">Total projects</td>
-      <td>4</td>
-    </tr>
-  </tfoot>
-</table>
+        <article id="calculator">
+            <h2>Simple Calculator</h2>
+            <img src="images/project-calculator.png" alt="Screenshot of the calculator showing 12 + 30 = 42" width="400" height="250">
+            <p>A calculator that adds, subtracts, multiplies and divides.</p>
 
-     <h2 id="projects">Projects</h2>
+          <h3>Watch the demo</h3>
+<video controls poster="images/project-demo-poster.jpg" width="640" height="360" autoplay loop muted>
+    <source src="media/project-demo.mp4" type="video/mp4">
+    <source src="media/project-demo.webm" type="video/webm">
+    <track src="media/project-demo.vtt" kind="captions" srclang="en" label="English" default>
+    Your browser does not support the video tag.
+</video>
 
-    <h3>Simple Calculator</h3>
-    <img src="images/project-calculator.png" alt="Screenshot of the calculator showing 12 + 30 = 42" width="400" height="250">
-    <p>A calculator that adds, subtracts, multiplies and divides.</p>
-     <h3>How I built it</h3>
-    <ol>
-        <li>Planned the four operations and the input the user types.</li>
-        <li>Wrote one function for each operation.</li>
-        <li>Added input checks, such as stopping division by zero.</li>
-        <li>Tested each operation with different numbers.</li>
-    </ol>
+            <h3>How I built it</h3>
+            <ol>
+                <li>Planned the four operations and the input the user types.</li>
+                <li>Wrote one function for each operation.</li>
+                <li>Added input checks, such as stopping division by zero.</li>
+                <li>Tested each operation with different numbers.</li>
+            </ol>
 
-    <h3>Technologies used</h3>
-    <ul>
-        <li>Python</li>
-        <li>VS Code</li>
-    </ul>
+            <h3>Technologies used</h3>
+            <ul>
+                <li>Python</li>
+                <li>VS Code</li>
+            </ul>
+        </article>
 
-    <hr>
+        <article id="library">
+            <h2>Library Management System</h2>
+            <img src="images/project-library.png" alt="Screenshot of the library program listing available books" width="400" height="250">
+            <p>A console program for borrowing and returning books.</p>
 
+            <h3>How I built it</h3>
+            <ol>
+                <li>Listed what the system must do: add books, borrow and return.</li>
+                <li>Created a Book class and a Library class.</li>
+                <li>Wrote the menu that asks the user what to do.</li>
+                <li>Tested borrowing a book that is already taken.</li>
+            </ol>
 
-    <h3>Library Management System</h3>
-    <img src="images/project-library.png" alt="Screenshot of the library program listing available books" width="400" height="250">
-    <p>A console program for borrowing and returning books.</p>
-    <h3>How I built it</h3>
-    <ol>
-        <li>Listed what the system must do: add books, borrow and return.</li>
-        <li>Created a Book class and a Library class.</li>
-        <li>Wrote the menu that asks the user what to do.</li>
-        <li>Tested borrowing a book that is already taken.</li>
-    </ol>
+            <h3>Technologies used</h3>
+            <ul>
+                <li>C++</li>
+                <li>VS Code</li>
+            </ul>
+        </article>
 
-    <h3>Technologies used</h3>
-    <ul>
-        <li>C++</li>
-        <li>VS Code</li>
-    </ul>
+        <article id="email">
+            <h2>Email System (Pigeon Mail)</h2>
+            <p>Pigeon Mail is a simple email system. Users can create an account, log in, send emails, view received and sent emails, and search emails by keyword.</p>
 
+            <h3>How I built it</h3>
+            <ol>
+                <li>Listed the features: accounts, login, send, inbox, sent box and search.</li>
+                <li>Designed the User and Email classes.</li>
+                <li>Wrote the menu and the keyword search.</li>
+                <li>Tested sending and searching between different accounts.</li>
+            </ol>
 
-    <hr>
+            <h3>Technologies used</h3>
+            <ul>
+                <li>Java</li>
+            </ul>
+        </article>
 
-    <h3>Email System (Pigeon Mail)</h3>
-    <p>Pigeon Mail is a simple email system. Users can create an account, log in, send emails, view received and sent emails, and search emails by keyword.</p>
-    <h3>How I built it</h3>
-    <ol>
-        <li>Listed the features: accounts, login, send, inbox, sent box and search.</li>
-        <li>Designed the User and Email classes.</li>
-        <li>Wrote the menu and the keyword search.</li>
-        <li>Tested sending and searching between different accounts.</li>
-    </ol>
+        <article id="pong">
+            <h2>Pong Game</h2>
+            <p>A recreation of the classic Pong arcade game, where a ball bounces between paddles on the screen.</p>
 
-    <h3>Technologies used</h3>
-    <ul>
-        <li>Java</li>
-    </ul>
+            <h3>How I built it</h3>
+            <ol>
+                <li>Drew the window, the two paddles and the ball.</li>
+                <li>Added keyboard controls to move the paddles.</li>
+                <li>Made the ball bounce off walls and paddles.</li>
+                <li>Added scoring when the ball passes a paddle.</li>
+            </ol>
 
-    <hr>
+            <h3>Technologies used</h3>
+            <ul>
+                <li>Java</li>
+            </ul>
+        </article>
 
-    <h3>Pong Game</h3>
-    <p>A recreation of the classic Pong arcade game, where a ball bounces between paddles on the screen.</p>
-    <h3>How I built it</h3>
-    <ol>
-        <li>Drew the window, the two paddles and the ball.</li>
-        <li>Added keyboard controls to move the paddles.</li>
-        <li>Made the ball bounce off walls and paddles.</li>
-        <li>Added scoring when the ball passes a paddle.</li>
-    </ol>
+        <section id="links">
+            <h2>Useful Links</h2>
+            <p><a href="https://www.w3.org/" target="_blank" rel="noopener">Official W3C HTML reference</a></p>
+            <p><a href="index.html#contact">Jump to my Contact section</a></p>
+        </section>
+    </main>
 
-    <h3>Technologies used</h3>
-    <ul>
-        <li>Java</li>
-    </ul>
-
-    <hr>
-
-    <p>Details of every project I have built. The summary table comes in Lab 7.</p>
-    <p><a href="https://www.w3.org/"target="_blank" rel="noopener">Official W3C HTML reference</a></p>
-    <p><a href="index.html#contact">Jump to my Contact section</a></p>
-
-
-
+    <footer>
+        <p>Copyright 2026 Makda Solomon. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
